@@ -4,3 +4,26 @@ body {
   font-family: "Roboto Slab", serif;
   font-size: 18px;
 }
+
+p {
+  font-size: 32px;
+}
+
+.site-wrapper {
+  min-height: 100vh;
+  background-image: url(../img/palm-trees-on-white-beach.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.word-date {
+  font-size: 50px;
+  text-shadow: 3px 4px 2px lime;
+}
+
+.word-text {
+  writing-mode: vertical-rl;
+}
